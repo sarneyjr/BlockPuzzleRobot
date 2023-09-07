@@ -21,7 +21,7 @@ def main():
     done = False
     clock = pygame.time.Clock()
     fps = 25
-    game = Tetris(10, 10)
+    game = Tetris(20, 10)
     counter = 0
 
     pressing_down = False
